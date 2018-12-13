@@ -1,0 +1,22 @@
+.redacted {
+    position: relative;
+    white-space: pre;
+    &:after {
+      background-color: #FFF;
+      content: " ";
+      width: 100%;
+      height: 1.25em;
+      left: 0;
+      position: absolute;
+      transform: skewY(-5deg) rotate(5deg);
+      text-shadow: 0 0 12px rgba(0,0,0,0.8);
+      transition: 1s;
+    }
+  }
+  
+  .redacted:hover {
+    &:after {
+      background-color: transparent;
+      transition: 1s;
+    }
+  }

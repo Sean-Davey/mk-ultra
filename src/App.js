@@ -3,6 +3,7 @@ import './App.css';
 import MKUltraIntro from './components/MKUltraIntro'
 import WhatIsMKUltra from './components/WhatsIsMKUltra'
 import TheAgent from './components/TheAgent'
+import ArmsRace from './components/ArmsRace';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class App extends React.Component {
       <MKUltraIntro/>
       <WhatIsMKUltra/>
       <TheAgent/>
-
+      <ArmsRace/>
       </div>
     );
   }

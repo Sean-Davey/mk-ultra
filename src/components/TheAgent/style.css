@@ -1,5 +1,7 @@
 #AgentArm, #poi {
   visibility: hidden; }
+  #AgentArm:hover, #poi:hover {
+    cursor: pointer; }
 
 #theAgent {
   display: flex; }
