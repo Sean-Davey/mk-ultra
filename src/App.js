@@ -4,6 +4,7 @@ import MKUltraIntro from './components/MKUltraIntro'
 import WhatIsMKUltra from './components/WhatsIsMKUltra'
 import TheAgent from './components/TheAgent'
 import ArmsRace from './components/ArmsRace';
+import Redacted from './components/Redacted';
 
 class App extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends React.Component {
       <WhatIsMKUltra/>
       <TheAgent/>
       <ArmsRace/>
+      <Redacted/>
       </div>
     );
   }

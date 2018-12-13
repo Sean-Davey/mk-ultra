@@ -30,9 +30,9 @@ class TheAgent extends Component {
             .from("#poi", 0.6, {autoAlpha: 0, transformOrigin: "40% 100%", scaleY: 0, repeat: -1}, "interest")
 			theAgenttl.timeScale(0.8);
 			
-		secrettl.to("#agent", 1, { autoAlpha: 0}, "discovered")
+		secrettl.to("#agent", 0.5, { autoAlpha: 0}, "discovered")
 		.to("#agentBackground", 0, {fill: '#201F1F'}, "discovered")
-		.to("#agent", 1, {display: 'none'}, "discovered")
+		.to("#agent", 0.8, {display: 'none'}, "discovered")
     }
 
     runAnimation = () => {
