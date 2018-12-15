@@ -37,7 +37,7 @@ class TheAgent extends Component {
 
     runAnimation = () => {
         console.log('Animation entered');
-		this.theAgenttl.play(0, false);
+		this.theAgenttl.play(0, false).delay(1);
     }
 
     onEnter = () => {
