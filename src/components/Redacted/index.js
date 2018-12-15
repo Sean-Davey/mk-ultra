@@ -49,7 +49,7 @@ class Redacted extends Component {
 	
 	runAnimation = () => {
         console.log('Animation entered');
-		this.documentstl.play(0, false);
+		this.documentstl.play(0, false).delay(1);
 	}
 	
 	onEnter = () => {

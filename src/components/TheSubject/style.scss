@@ -1,0 +1,23 @@
+.c-theSubject {
+    display: flex;
+    position: absolute;
+    .c-theSubject_info {
+        width: 50%;
+        height: 100%;
+        align-self: center;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+}
+
+#theSubject {
+    position: relative;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+#Headset, #MouthGuard, #Switch {
+    visibility: hidden;
+  }
