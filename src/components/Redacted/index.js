@@ -100,7 +100,7 @@ render() {
 <Waypoint onEnter={this.onEnter}>
 <svg viewBox="0 0 1440 800">
 	<g id="RedactedSVG" fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
-		<rect height="800" width="1440" fill="#201F1F" x="0" y="0"/>
+		<rect height="800" width="1440" fill="#C93030" x="0" y="0"/>
 		<g id="PageThree" onMouseEnter={this.revealPG3} onMouseLeave={this.reversePG3} transform="translate(935.000000, 72.000000)">
 			<polygon id="PageBGThree" fill="#FFFFFF" fillRule="nonzero" points="0.568669576 38.3049145 29.6986058 193.94614 64.0264574 605.940457 299.989178 598.127021 447.249814 605.940457 383.945902 81.2033914 359.691067 0.522880459"/>
 			<text id="-3-" fill="#C93030" fontFamily="Special+Elite" fontSize="13" transform="translate(241.894705, 580.904916) rotate(-3.000000) translate(-241.894705, -580.904916) ">

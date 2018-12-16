@@ -23,7 +23,7 @@ class TheSubject extends Component {
 		.from("#Headset", 2, {autoAlpha: 0, y:0}, "Enter")
 		.from("#MouthGuard", 1.5, {autoAlpha: 0, x:180})
 		.from("#Lock", 2, {rotation:90, transformOrigin:"50% 50%"})
-		.to("#TheSubject", 0.1, {x:201, repeat: -1}, "ECT")
+		.to("#TheSubject, #MouthGuard", 0.1, {x:201, repeat: -1}, "ECT")
 		.to("#background", 5, {fill: '#201F1F', repeat: -1}, "ECT")
         .from("#CablesTwo", 0.5, {autoAlpha: 0, scaleY:0}, "ECT")
         .from("#Switch", 0.5, {autoAlpha: 0, y:0}, "ECT")
