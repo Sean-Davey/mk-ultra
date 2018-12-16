@@ -1,21 +1,21 @@
-.c-theSubject {
+.c-LSD {
   display: flex; }
-  .c-theSubject .c-theSubject_info {
+  .c-LSD .c-LSD_info {
     width: 50%;
     height: 100%;
     align-self: center;
     padding: 2em;
     box-sizing: border-box; }
 
-#theSubject {
+#LSD {
   position: relative;
   right: 0;
   width: 50%;
   height: 100%;
   display: flex; }
 
-#Headset, #MouthGuard, #Switch {
+#Glass, #GlassCapsule, #Zero, #One, #Two, #Three, #Four, #Five, #Six, #Seven {
   visibility: hidden; }
 
-#Switch:hover {
+#LSDCapsule:hover {
   cursor: pointer; }

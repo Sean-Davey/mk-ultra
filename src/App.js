@@ -8,6 +8,7 @@ import ArmsRace from './components/ArmsRace';
 import Redacted from './components/Redacted';
 import TheAim from './components/TheAim';
 import TheSubject from './components/TheSubject';
+import LSD from './components/LSD';
 
 class App extends React.Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends React.Component {
       <Redacted/>
       <TheAim/>
       <TheSubject/>
+      <LSD/>
       </div>
     );
   }
