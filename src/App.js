@@ -9,6 +9,8 @@ import Redacted from './components/Redacted';
 import TheAim from './components/TheAim';
 import TheSubject from './components/TheSubject';
 import LSD from './components/LSD';
+import Radiological from './components/Radiological';
+import Hypnosis from './components/Hypnosis';
 
 class App extends React.Component {
   constructor(props) {
@@ -30,6 +32,8 @@ class App extends React.Component {
       <TheAim/>
       <TheSubject/>
       <LSD/>
+      <Radiological/>
+      <Hypnosis/>
       </div>
     );
   }

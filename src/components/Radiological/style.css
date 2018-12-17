@@ -1,0 +1,18 @@
+.c-radio {
+  display: flex; }
+  .c-radio .c-radio_info {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    padding: 2em;
+    box-sizing: border-box; }
+
+#Radiological {
+  position: relative;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex; }
+
+#NFSwitch:hover {
+  cursor: pointer; }

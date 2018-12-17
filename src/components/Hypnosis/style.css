@@ -1,0 +1,15 @@
+.c-Hypnosis {
+  display: flex; }
+  .c-Hypnosis .c-Hypnosis_info {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    padding: 2em;
+    box-sizing: border-box; }
+
+#Hypnosis {
+  position: relative;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex; }
