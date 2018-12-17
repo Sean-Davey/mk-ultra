@@ -13,3 +13,9 @@
   width: 50%;
   height: 100%;
   display: flex; }
+
+#InnerSpiral, #Spiral {
+  visibility: hidden; }
+
+#Eye {
+  cursor: pointer; }
