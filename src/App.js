@@ -11,6 +11,9 @@ import TheSubject from './components/TheSubject';
 import LSD from './components/LSD';
 import Radiological from './components/Radiological';
 import Hypnosis from './components/Hypnosis';
+import CovertlyRan from './components/CovertlyRan';
+import SecretOperation from './components/SecretOperation';
+import InstitutionAwareness from './components/InstitutionAwareness';
 
 class App extends React.Component {
   constructor(props) {
@@ -34,6 +37,9 @@ class App extends React.Component {
       <LSD/>
       <Radiological/>
       <Hypnosis/>
+      <CovertlyRan/>
+      <SecretOperation/>
+      <InstitutionAwareness/>
       </div>
     );
   }
