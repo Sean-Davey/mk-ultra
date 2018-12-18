@@ -1,0 +1,8 @@
+#SecretElevator, #SecretBuilding, #LevelOne, #LevelTwo {
+  visibility: hidden; }
+
+#SecretElevator:hover {
+  cursor: pointer; }
+
+#Operation {
+  display: flex; }
