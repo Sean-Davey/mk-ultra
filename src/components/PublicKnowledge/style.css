@@ -1,0 +1,8 @@
+#News, #Interfearance {
+  visibility: hidden; }
+
+#ButtonOne:hover, #ButtonTwo:hover {
+  cursor: pointer; }
+
+#PublicKnowledge {
+  display: flex; }
