@@ -14,6 +14,8 @@ import Hypnosis from './components/Hypnosis';
 import CovertlyRan from './components/CovertlyRan';
 import SecretOperation from './components/SecretOperation';
 import InstitutionAwareness from './components/InstitutionAwareness';
+import PublicKnowledge from './components/PublicKnowledge';
+import ThePublic from './components/ThePublic';
 
 class App extends React.Component {
   constructor(props) {
@@ -40,6 +42,8 @@ class App extends React.Component {
       <CovertlyRan/>
       <SecretOperation/>
       <InstitutionAwareness/>
+      <PublicKnowledge/>
+      <ThePublic/>
       </div>
     );
   }
