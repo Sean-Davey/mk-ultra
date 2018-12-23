@@ -63,7 +63,7 @@ class TheSubject extends Component {
 
 <div className="c-theSubject">
 <div className="c-theSubject_info">
-<span className="redacted">Biological - ECT</span>
+<span onClick={function() {}} className="redacted">Biological - ECT</span>
 <p> Administration of multiple 150 volt shocks with the risk of permanent comatose. </p>
 </div>
 <Waypoint onEnter={this.onEnter}>

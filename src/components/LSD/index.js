@@ -128,7 +128,7 @@ class LSD extends Component {
 </svg>
 </Waypoint>
 <div className="c-LSD_info">
-<span className="redacted">Chemical - LSD</span>
+<span onClick={function() {}} className="redacted">Chemical - LSD</span>
 <p> Supplied to individuals unwittingly to test reactions of the mind under stress. </p>
 </div>
 </div>

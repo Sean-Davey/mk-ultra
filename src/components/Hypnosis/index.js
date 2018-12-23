@@ -101,7 +101,7 @@ class Hypnosis extends Component {
 </svg>
 </Waypoint>
 <div className="c-Hypnosis_info">
-<span className="redacted">Psychological - Hypnosis</span>
+<span onClick={function() {}} className="redacted">Psychological - Hypnosis</span>
 <p> Used in combination with ECT and LSD, results incuded permanent amnesia. </p>
 </div>
 </div>

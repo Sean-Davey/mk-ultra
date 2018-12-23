@@ -36,7 +36,7 @@ class TheAgent extends Component {
     }
 
     runAnimation = () => {
-        console.log('Animation entered');
+        console.log('Animation entered, YAY');
 		this.theAgenttl.play(0, false).delay(1);
     }
 
