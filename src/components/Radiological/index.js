@@ -62,7 +62,7 @@ class Radiological extends Component {
 <div className="c-preventFlow">
 <div className="c-radio">
 <div className="c-radio_info">
-<span className="redacted">Radiological - Radiation</span>
+<span onClick={function() {}} className="redacted collapse">Radiological - Radiation</span>
 <p> Radioactive materials exposed to men, pregnant women and children to purposely promote disability and development of a 'knockout pill'. </p>
 </div>
 <Waypoint onEnter={this.onEnter}>
